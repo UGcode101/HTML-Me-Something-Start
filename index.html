@@ -1,8 +1,112 @@
 <!DOCTYPE html>
-<html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Yuji Niizuma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 800px; margin: auto; }
+        .header { text-align: center; }
+        .section { margin-top: 20px; }
+        .section-title { font-size: 24px; color: #444; margin-bottom: 10px; }
+        .experience-item, .education-item, .project-item { margin-bottom: 15px; }
+        .experience-title, .education-title, .project-title { font-weight: bold; }
+        .icon { margin-right: 5px; }
+        a { text-decoration: none; color: #0066cc; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Yuji Niizuma</h1>
+            <p><i class="fas fa-envelope icon"></i>ynizuma82@gmail.com</p>
+            <p><i class="fas fa-phone icon"></i>(312) 213 9854</p>
+            <p><i class="fas fa-home icon"></i>5450a Rosa Ave., Saint Louis, Missouri, 63109</p>
+             <p><i class="fab fa-linkedin icon"></i><a href="https://www.linkedin.com/in/yuji-niizuma-210347257" target="_blank">www.linkedin.com/in/yuji-niizuma-210347257</a></p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <p>Dynamic and motivated professional transitioning to software development after completing the LaunchCode boot camp in St. Louis. With a background in management and team leadership, coupled with a growing portfolio of projects on GitHub (UGcode101), I am eager to apply problem-solving, analytical, and technical skills in a coding environment.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <ul>
+                <li><i class="fas fa-check icon"></i>Proficient in HTML, CSS, and JavaScript </li>
+                <li><i class="fas fa-check icon"></i>Familiar with React, Node.js, and SQL databases</li>
+                <li><i class="fas fa-check icon"></i>Experienced in version control with Git and GitHub</li>
+                <li><i class="fas fa-check icon"></i>Project management & team leadership</li>
+                <li><i class="fas fa-check icon"></i>Effective communication & problem-solving</li>
+                <li><i class="fas fa-check icon"></i>Proficient in Aloha POS, iOS, MS Office Pro, Excel</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Projects on GitHub (UGcode101)</div>
+            <div class="project-item">
+                <div class="project-title"><a href="https://github.com/UGcode101/AutogradingCodeProject" target="_blank">Autograding Code Project</a></div>
+                <div>Technologies Used: JavaScript, GitHub Actions</div>
+                <p>Developed an autograding system for coding assignments, utilizing Python for script writing and GitHub Actions for CI/CD. Focused on creating a seamless and efficient grading process for educators.</p>
+            </div>
+            <div class="project-item">
+                <div class="project-title"><a href="https://github.com/UGcode101/TDDProject" target="_blank">Test-Driven Development (TDD) Project</a></div>
+                <div>Technologies Used: JavaScript, Jest</div>
+                <p>Implemented a web application using Test-Driven Development (TDD) methodology, with Jest for testing JavaScript code. Emphasized writing tests before code to ensure reliability and reduce bugs.</p>
+            </div>
+            <div class="project-item">
+                <div class="project-title"><a href="https://github.com/UGcode101/GroupProject" target="_blank">Group Collaboration Project</a></div>
+                <div>Technologies Used: HTML, CSS, JavaScript, Git</div>
+                <p>Collaborated with a team on a web development project, using Git and GitHub for version control and project management. Demonstrated strong teamwork and communication skills.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">LaunchCode Boot Camp, St. Louis</div>
+            <div>August 2024</div>
+            <p>An introduction to programming concepts and web development with JavaScript and React. JavaScript is a programming language used commonly for web development. Understanding how the internet works and being able to create web applications are important skills in today's technology landscape.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Experience</div>
+            <div class="experience-item">
+                <div class="experience-title">Jul 2018 - Apr 2020 Expeditor and Line Chef, Union Loafers Café and Bread Bakery, St. Louis, MO</div>
+                <ul>
+                    <li>Effectively communicated orders between front of the house and back of the house</li>
+                    <li>Ensured quality, promptness, and accuracy of orders</li>
+                    <li>Created organization and structure in fast-paced environment</li>
+                    <li>Maintained cleanliness, safety, and efficiency in the kitchen</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <div class="experience-title">Jul 2016 - Jul 2018 Sous Chef, Urban Chestnut Brewing Company, St. Louis, MO</div>
+                <ul>
+                    <li>Trained new hires on kitchen guidelines and created staff schedule</li>
+                    <li>Initiated order guidelines for the kitchen</li>
+                    <li>Addressed and rectified customer concerns and complaints</li>
+                    <li>Developed weekly specials and prepared menu items</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <div class="experience-title">Dec 2011 - Aug 2015 General Manager, Kamakura Japanese Steakhouse, Champaign, IL</div>
+                <ul>
+                    <li>Increased profits by creating monthly sales goals</li>
+                    <li>Budgeted orders for food supply and equipment</li>
+                    <li>Hiring and onboarding of staff; managed over 20 employees</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <div class="education-title">University of Illinois at Urbana-Champaign</div>
+                <div>Bachelor of Science in Animal Sciences, Minor in Chemistry</div>
+                <div>Graduation: May 2011</div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
